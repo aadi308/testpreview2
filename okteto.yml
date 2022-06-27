@@ -27,6 +27,6 @@ deploy:
 #       - .:/usr/src/app
 #     environment:
 #       - name=$USER
-#     forward:
-#       - 8080:80
+      forward:
+        - 8080:80
 
